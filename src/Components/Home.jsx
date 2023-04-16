@@ -72,23 +72,23 @@ const MyCarousel = () => (
     showThumbs={false}
   >
     <Box w={'full'} h={'100vh'}>
-      <Image src={img1} />
+      <Image src={img4} h={'full'} w={'full'} objectFit={'cover'} />
     </Box>
 
     <Box w={'full'} h={'100vh'}>
-      <Image src={img2} />
+      <Image src={img1} h={'full'} w={'full'} objectFit={'cover'} />
     </Box>
 
     <Box w={'full'} h={'100vh'}>
-      <Image src={img3} />
+      <Image src={img3} h={'full'} w={'full'} objectFit={'cover'} />
     </Box>
 
     <Box w={'full'} h={'100vh'}>
-      <Image src={img4} />
+      <Image src={img2} h={'full'} w={'full'} objectFit={'cover'} />
     </Box>
 
     <Box w={'full'} h={'100vh'}>
-      <Image src={img5} />
+      <Image src={img5} h={'full'} w={'full'} objectFit={'cover'} />
     </Box>
   </Carousel>
 );
